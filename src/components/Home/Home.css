@@ -1,0 +1,7 @@
+.bg{
+    background-image: url("../../../public/main\ 2.jpg");
+    height: 80vh;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+}
