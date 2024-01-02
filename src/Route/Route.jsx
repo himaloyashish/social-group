@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../components/Home/Home";
+import Group from "../components/group/Group";
 
 const router = createBrowserRouter([
     {
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
                 path:'/',
                 element:<Home></Home>
 
+            },
+            {
+                path:"dropdown",
+                element:<Group></Group>
             }
         ]
     }

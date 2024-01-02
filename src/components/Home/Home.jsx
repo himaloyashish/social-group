@@ -17,8 +17,8 @@ const Home = () => {
 
                     <Tab>Title 1</Tab>
                     <Tab>Title 2</Tab>
-
                     <p className=' justify-content d-inline-flex flex-grow-1'>ok</p>
+
                 </TabList>
 
                 <TabPanel>
